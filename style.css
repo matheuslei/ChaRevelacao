@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab:wght@400;500&family=Roboto:wght@400;500;700&family=Sarala:wght@400;700&family=Ubuntu&display=swap");
 
 body {
-  width: 100wh;
   height: 100vh;
   /* min-height: 100vh; */
   display: grid;
@@ -24,8 +23,10 @@ main {
   border-radius: 10px;
 }
 
-main h1 img {
-  width: 100%;
+#nuvem {
+  margin-right: 10px ;
+  width: 30vw;
+  height: 30vh;
   font-weight: bold;
 }
 
