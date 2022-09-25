@@ -25,7 +25,7 @@ botaoSortear.addEventListener('click', () => {
     resultado.style.background = '#888888';
     resultado.style.margin = '50px';
     resultado.style.padding = '10px';
-  }, 2 * 1000);
+  }, 4 * 1000);
 });
 
 btnChloe.addEventListener('click', () => {
@@ -34,7 +34,7 @@ btnChloe.addEventListener('click', () => {
   btnChloe.style.transition = '400ms';
   btnChloe.style.padding = '0 50px  0 50px';
   document.querySelector('body').style.background = '#b576c7';
-  document.querySelector('body').style.transition = '400ms';
+  document.querySelector('body').style.transition = '2000ms';
 });
 
 btnOliver.addEventListener('click', () => {
@@ -43,5 +43,5 @@ btnOliver.addEventListener('click', () => {
   btnOliver.style.transition = '400ms';
   btnOliver.style.padding = '0 50px  0 50px';
   document.querySelector('body').style.background = '#3a9795';
-  document.querySelector('body').style.transition = '400ms';
+  document.querySelector('body').style.transition = '2000ms';
 });
